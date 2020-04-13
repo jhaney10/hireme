@@ -10,7 +10,7 @@ if (isset($reviews)) {
 if (isset($avail)) {
 	$sitters=$avail->toArray();
 }
-?>
+?> 
 	<div class="row" id="landingpg">
 			
 			<div class="col" id="bg">
@@ -30,9 +30,9 @@ if (isset($avail)) {
 								    GET STARTED
 								 </button>
 								 <div class="dropdown-menu">
-								    <a class="dropdown-item" href="parents_signup.php">Find a Sitter</a>
+								    <a class="dropdown-item" href="{{ route('pregister')}}">Find a Sitter</a>
 								    <div class="dropdown-divider"></div>
-								    <a class="dropdown-item" href="sitters_signup.php">Become a Sitter</a>
+								    <a class="dropdown-item" href="{{ route('register') }}">Become a Sitter</a>
 								 </div>
 							</div>
 						</div>

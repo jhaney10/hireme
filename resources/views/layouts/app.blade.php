@@ -83,7 +83,7 @@
 
         <nav class="navbar navbar-expand-lg sticky-top  ">
             <div class="container">
-                <a class="navbar-brand" href="#"><span id="logo">iCare</span></a>
+                <a class="navbar-brand" href="#"><span id="logo">Cuida</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -210,7 +210,7 @@
                             </div>
                             <div class="row">
                                 <div class="col pt-5">
-                                    <p align="center">Copyright&copy; iCare 2019</p>
+                                    <p align="center">Copyright&copy; Cuida 2019</p>
                                 </div>
                             </div>
                         </div>

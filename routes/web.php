@@ -37,6 +37,7 @@ Route::post('/reviews', 'Mother@submitreview');
 Route::post('/availablesitters','Mother@searchsitters');
 Route::post('/verify','Mother@verify');
 Route::get('/jobdone/{id}','Mother@jobcomplete');
+Route::post('/booksitter', 'MotherController@store')->name('parent.store');
 
 Route::resource('parent', 'MotherController');
 });

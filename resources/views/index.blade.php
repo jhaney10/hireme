@@ -15,7 +15,7 @@ if (isset($avail)) {
 			
 			<div class="col" id="bg">
 				<div id="parentintro">
-					{{session('usertype')}}
+					{{session('usertype')}} 
 					@if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
@@ -83,7 +83,7 @@ if (isset($avail)) {
 					<div class="col-md-5 linkdivs">
 						<h3>Stress no more about where to find a babysitter or housekeeper</h3><br>
 					 	<p>More options on a convenient platform for parents to choose from a trusted pool of helpers</p>
-					 	<button class="btn beginbtn btn-lg"><a href="parents_signup.php">PARENTS: SIGN UP</a></button><br><br>
+					 	<button class="btn beginbtn btn-lg"><a href="{{ route('pregister')}}">PARENTS: SIGN UP</a></button><br><br>
 					</div>
 					<div class="col-md-5">
 							<img src="image/6.jpg" class="img-fluid rounded-circle" alt="" style=" ">
@@ -225,7 +225,7 @@ if (isset($avail)) {
 				</div>
 				<div class="row  mb-3">
 					 <div class="col linkdivs" >
-					 	<button class="btn beginbtn btn-lg mybuttons" type="button" style="margin-left:35%"><a href="parents_signup.php">VIEW MORE AVAILABLE SITTERS</a></button>
+					 	<button class="btn beginbtn btn-lg mybuttons" type="button" style="margin-left:35%"><a href="{{ route('pregister') }}">VIEW MORE AVAILABLE SITTERS</a></button>
 					 </div>
 					</div>
 			</div>

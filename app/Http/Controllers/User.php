@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class User extends Controller
 {
     public function error(){
-    	abort(403);
+    	abort(404);
     }
 
     public function contact(){
